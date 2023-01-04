@@ -3,6 +3,5 @@
 
 Proceedings:
 
-1. Need to add models.
-2. Need to create requirements.txt
+1. Need to add Explainable AI.
 3. Deploy it.
