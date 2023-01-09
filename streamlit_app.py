@@ -29,7 +29,7 @@ def main():
 
         submit = st.form_submit_button("Predict")
         if submit:
-            data = np.array([clonesize,bumbles,andrena,osmia,RainingDays,Average_rainingDays]).reshape(1,-1)
+            data = np.array([clonesize,bumbles,andrena,osmia,RainingDays,Average_rainingDays,fruitset,fruitmass,seeds]).reshape(1,-1)
             pred = get_predictions(data=data,model=model)
             simulation = pred
             st.write(f"Pollination is: {simulation}")
