@@ -17,6 +17,8 @@ Blueberry plants depend on insects for their pollination. The U.S. produces more
 
 Domain: Agricultural Sector, Machinelearning
 
+More on dataset & features: BlueBerry/Dataset/DataBrief/Data in Brief/WildBlueberryPollinationSimulation.docx
+
 Tech stack: 
 ----------
 Coding: Python
