@@ -12,4 +12,4 @@ def get_predictions(data,model):
     :param model: .joblib
     :return: Slight Injury/Fatal Injury/Serious Injury
     '''
-    return model.predict(data)
+    return model.predict(data)[0]
