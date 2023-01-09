@@ -33,7 +33,9 @@ Deployment: https://kishkath-blueberry-streamlit-app-x1nawm.streamlit.app/
  
  Course: Course: https://themlco.com/Academy/mgp/
 
-Proceedings:
+Further Proceedings:
+====================
 
 1. Need to add Explainable AI.
+2. Need to deep dive.
 
