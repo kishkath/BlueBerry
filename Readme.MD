@@ -2,12 +2,14 @@
 
 Aim: Prediciton of blueberry pollination.
 
+![blueb](https://user-images.githubusercontent.com/60026221/211329178-5a4dfccb-ebb2-4bcf-b3e1-2d920ae34ac8.jpeg)
+
 
 Theme: 
 
-![inj](![bees](https://user-images.githubusercontent.com/60026221/211329174-4c3f52aa-5325-4d4b-9f92-817a9f337dff.jpeg)
-![blueb](https://user-images.githubusercontent.com/60026221/211329178-5a4dfccb-ebb2-4bcf-b3e1-2d920ae34ac8.jpeg)
-)
+(![bees](https://user-images.githubusercontent.com/60026221/211329174-4c3f52aa-5325-4d4b-9f92-817a9f337dff.jpeg))
+
+
 
 Blueberry plants require pollination by bees, because of their nature, wild blueberry flowers require cross-pollination. A desirable fruit set can rarely be met without the introduction of managed bees. The quantity of bees is important in order to counter the effects of genetic and climatic factors which can influence pollination.
  
