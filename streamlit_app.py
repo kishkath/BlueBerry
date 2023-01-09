@@ -27,8 +27,8 @@ def main():
         if submit:
             data = np.array([clonesize,honey,bumbles,andrena,osmia,RainingDays,Average_rainingDays]).reshape(1,-1)
             pred = get_predictions(data=data,model=model)
-            accidentMapping = {2: 'Slight Injury', 1: 'Serious Injury', 0: 'Fatal Injury'}
-            st.write(f"Prediction Severity is: {accidentMapping[pred[0]]}")
+            simulation = pred
+            st.write(f"Pollination is: {simulation}")
 
 if __name__ == "__main__":
     main()
