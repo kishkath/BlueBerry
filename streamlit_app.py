@@ -17,11 +17,11 @@ def main():
     with st.form('prediction_form'):
         st.subheader("Enter input for the required info: ")
         clonesize = st.slider("Choose the clone-size: ",10,50,format="%d")
-        bumbles = st.slider("Choose Bumbles density:  ",0,1,format="%f")
-        andrena = st.slider("Choose Andrena density: ",0,1,format="%f")
-        osmia = st.slider("Choose Osmia density:  ",0,1,format="%f")
+        bumbles = st.slider("Choose Bumbles density:  ",0,1,format="{:.2f}")
+        andrena = st.slider("Choose Andrena density: ",0,1,format="{:.2f}")
+        osmia = st.slider("Choose Osmia density:  ",0,1,format="{:.2f}")
         RainingDays = st.slider("Select number of raining days: ",5,15,format="%d")
-        Average_rainingDays = st.selectbox("Average number of raining days: ",0,1,format="%f")
+        Average_rainingDays = st.selectbox("Average number of raining days: ",0,1,format="{:.2f}")
 
         submit = st.form_submit_button("Predict")
         if submit:
