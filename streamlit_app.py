@@ -23,6 +23,9 @@ def main():
         osmia = st.slider("Choose Osmia density:  ",0.0,1.0,random.uniform(0.01,0.9),format="%f")
         RainingDays = st.slider("Select number of raining days: ",5,15,format="%d")
         Average_rainingDays = st.slider("Average number of raining days: ",0.0,1.0,random.uniform(0.1,0.9),format="%f")
+        fruitset = st.slider("Select the set of fruits: ",0.0,1.0,format="%d")
+        fruitmass = st.slider("Select mass of fruit: ",0.0,1.0,format="%f")
+        seeds = st.slider("Select number of seeds: ",20,50,format="%f")
 
         submit = st.form_submit_button("Predict")
         if submit:
