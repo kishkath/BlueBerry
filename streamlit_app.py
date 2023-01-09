@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import joblib
 from sklearn.ensemble import RandomForestClassifier
-from prediction import encoding
+
 
 
 from prediction import get_predictions
